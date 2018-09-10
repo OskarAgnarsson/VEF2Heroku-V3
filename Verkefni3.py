@@ -2,6 +2,12 @@
 
 from bottle import *
 
+@route("/")
+
+def index():
+    gogn={"title":"Modular template", "content":"<h3>Hallo Modular templates!</h3>", "footer":"Höfundur &copy; Óskar"}
+    return template("base.tpl", gogn)
+
 @route("/page1")
 
 def index():
