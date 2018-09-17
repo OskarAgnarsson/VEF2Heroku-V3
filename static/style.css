@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	max-width: 50em;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.pd2{
+	padding: 1em;
+}
+.haus, .fotur{
+	border: 2px solid #888;
+}
+img {
+	width: 100%;
+	height: auto;
+}
